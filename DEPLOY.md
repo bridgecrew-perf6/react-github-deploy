@@ -27,3 +27,19 @@
   /...
   }
   ```
+
+  4. Deploy to Github Pages
+  - It takes care of building the app and deploying to gh-pages branch.
+  ```sh
+  ➜  react-github-deploy git:(master) npm run deploy
+
+  ...
+  > react-github-deploy@0.1.0 deploy
+  > gh-pages -d build
+
+  Published
+  ```
+
+  5. Open settings in Github Pages
+- It will show the url of the app in Github Pages.
+  ![Imgur](https://imgur.com/zalksBV.png)
